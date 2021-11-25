@@ -4,6 +4,7 @@ PORT = 9090
 
 
 def _main():
+    print('Чтобы посмотреть список доступных команд, введите help')
     while True:
         request = input('$ ')
         if request == 'exit':
