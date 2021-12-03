@@ -9,11 +9,18 @@ cat <filename> - отправляет содержимое файла
 dirname = os.path.join(os.getcwd(), 'docs')
 
 def process(req):
+    print("".join((list(req)[:5])))
     if req == 'pwd':
         return dirname
     elif req == 'ls':
         return '; '.join(os.listdir(dirname))
-    return 'bad request'
+    elif "".join((list(req)[:5])) == "mkdir":
+        os.mkdir("".join((list(req)[6:])))
+        return f'Created dir: {"".join((list(req)[6:]))}'
+    elif "".join((list(req)[:2])) == "rm":
+        
+    else:
+        return 'bad request'
 
 
 PORT = 6666
