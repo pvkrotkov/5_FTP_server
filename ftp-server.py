@@ -1,13 +1,30 @@
 import socket
 import os
 from shutil import rmtree
+from os.path import getsize
+logfile = "log.txt"
 
-dirname = os.path.join(os.getcwd(), 'docs')
 
+def authorization():
+    users = []
+    login, password = conn.recv(1024).decode().split("\n")
+    with open("users.txt", "r") as file:
+        for i in file:
+            users.append(i.split(":"))
+    authorized = [login, password] in users
+    if authorized:
+        conn.send("AUTHORIZATION_SUCCESSFUL")
+        if login != root:
+            dirname = os.path.join(os.getcwd(), login)
+        else:
+            dirname = os.path.join(os.getcwd())
+    else:
+        conn.send("AUTHORIZATION_ERROR")
+    return authorized
 
 def process(req):
     if req == 'pwd':
-        return dirname
+        return "/"
     elif req == 'ls':
         return '; '.join(os.listdir(dirname))
     elif "".join((list(req)[:5])) == "mkdir":
@@ -42,7 +59,21 @@ def process(req):
         with open(file1, "wb") as file:
             content = req[1]
             file.write(req[1])
-        return "Файл получен"
+        if getsize(dirname) > 1024**3:
+            os.remove(file1)
+            return "Файл слишком велик"
+        else:
+            return "Файл получен"
+    elif req[:6] == "mkuser" and login == "root":
+        login, password = conn.recv(1024).decode().split("\n")
+        os.makedirs(os.path.join(dirname, login))
+        with open("users.txt", "a") as file:
+            file.write(":".join([login, password]))
+        return f"Пользователь {login} создан"
+    elif req[:7] == "deluser" and login == "root":
+        login = conn.recv(1024).decode()
+        rmtree(os.path.join(dirname, login))
+        return f"Пользователь {login} удален"
     else:
         return 'bad request'
 
@@ -55,12 +86,15 @@ sock.listen()
 print("Прослушиваем порт", PORT)
 WIP = True
 while WIP:
-    conn, addr = sock.accept()
-    request = conn.recv(1024).decode()
-    if request == "exit":
-        conn.send("Работа завершена".encode())
-        break
-    else:
-        response = process(request)
-        conn.send(response.encode())
+    if authorization():
+        conn, addr = sock.accept()
+        request = conn.recv(1024).decode()
+        if request == "exit":
+            conn.send("Работа завершена".encode())
+            break
+        else:
+            response = process(request)
+            with open(logfile, "a") as file:
+                file.write(response+"\n")
+            conn.send(response.encode())
 conn.close()

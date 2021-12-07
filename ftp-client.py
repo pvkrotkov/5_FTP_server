@@ -1,4 +1,15 @@
 import socket
+from os.path import getsize
+
+
+def authorization():
+    login = input("Введите логин")
+    password = input("Введите пароль")
+    sock.send((login+"\n"+password).encode())
+    response = sock.recv(1024)
+    return response != "AUTHORIZATION_ERROR"
+    
+
 
 HOST = 'localhost'
 PORT = 6666
@@ -20,6 +31,10 @@ while True:
         with open(request[7:], "rb") as file:
             content = file.read(1024)
             sock.send(content)
+    if request == "mkuser":
+        login = input("Введите логин")
+        password = input("Введите пароль")
+        sock.send(login+"\n"+password)
     response = sock.recv(1024).decode()
     print(response)
     if response == "Работа завершена":
