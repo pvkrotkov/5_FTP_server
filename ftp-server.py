@@ -7,11 +7,11 @@ HOME = Path(Path.cwd(), 'home')
 
 def ls(path=None):
     if path:
-        return '; '.join(os.listdir(path)) #список файлов и директорий в папке
+        return '; '.join(os.listdir(path)) #список файлов и директорий в папке HOME
     return '; '.join(os.listdir(HOME))
 
 def pwd():
-    return str(HOME)
+    return str(HOME) #отображает текущую директорию
 
 def mkdir(path):
     path = Path(path)
@@ -21,7 +21,7 @@ def mkdir(path):
 def touch(path, text=''):
     path = Path(path)
     path.touch()
-    path.write_text(text)  #создаем теокстовый файл
+    path.write_text(text)  #создаем текстовый файл
 
 def rm(path):
     path = Path(path)
@@ -34,7 +34,9 @@ def mv(src_path, dst_path):
     src_path = Path(src_path)
     dst_path = Path(dst_path)
     if src_path.exists():
-        shutil.move(src_path, dst_path) #рекурсивно перемещаем файл
+        shutil.move(str(src_path), str(dst_path)) #рекурсивно перемещаем файл
+    else:
+        shutil.move(str(dst_path), str(src_path))
 
 def cat(path):
     path = Path(path)
