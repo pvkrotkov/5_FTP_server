@@ -1,0 +1,9 @@
+{
+    "users": {
+        "immortal": {
+            "password": "b6b02807603b81ee1be14dc14ca9041069e331984facc390095796a03f7c3213e9055d4f58c96ee13b03e23950f7f3987b0a76d731a9df0ee332123903e118388d61e67c18b88737623a160b652381512429e0c87ed6e2d04544baa9b35e5220",
+            "address": "127.0.0.1",
+            "path": "immortal/deep"
+        }
+    }
+}
