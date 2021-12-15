@@ -79,4 +79,4 @@ while True:
     response = process(request)
     conn.send(response.encode())
 
-conn.close(
+conn.close()
