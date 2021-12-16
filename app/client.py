@@ -89,9 +89,9 @@ if __name__ == '__main__':
     sock = socket.socket()
     sock.setblocking(1)
 
-    ip = input('Введите имя хоста (IP-adress): ')
+    #ip = input('Введите имя хоста (IP-adress): ')
     port = input('Введите порт: ') # на сервере стоит 9090
-    #ip = '192.168.1.2'
+    ip = '192.168.1.2'
     #port = 9090
 
     print('Соединение с сервером...')

@@ -198,6 +198,7 @@ def sfl(*args):
         time.sleep(1)
         with open(filename, 'w') as f:
             f.write(data.decode())
+        conn.send(f'Файл {filename} успешно отправлен на сервер.'.encode())
     else:
         conn.send('Неправильное количество параметров. Отправьте 1 файл.'.encode())
     return current_path
@@ -221,7 +222,7 @@ def dlfl(*args):
             for line in f:
                 data += line
         conn.send(data.encode())
-        conn.send(f'Файл {filename} успешно отправлен на клиент.'.encode())
+        #conn.send(f'Файл {filename} успешно отправлен на клиент.'.encode())
     else:
         conn.send('Неправильное количество параметров. Выберите 1 файл.'.encode())
     return current_path
@@ -245,7 +246,7 @@ def s_register(conn, addr):
         	100000
         )
 
-        userinfo[login] = [addr[0], salt+key]
+        userinfo[login] = [salt+key]
         conn.send('успешно'.encode())
         os.mkdir(root_folder+'/'+login)
         with open('clients.txt', 'w') as file:
@@ -253,7 +254,7 @@ def s_register(conn, addr):
         logging(f'подключение {addr}')
         main(login, conn, addr)
     except:
-        conn.send('что-то пошло не так'.encode())
+        conn.send('Что-то пошло не так'.encode())
 
 def s_login(conn, addr):
     try:
@@ -266,18 +267,18 @@ def s_login(conn, addr):
         new_key = hashlib.pbkdf2_hmac(
             'sha256',
             passw.encode('utf-8'),
-			userinfo[login][1][:32],
+			userinfo[login][0][:32],
 			100000
 		)
 
-        if new_key == userinfo[login][1][32:]:
+        if new_key == userinfo[login][0][32:]:
             conn.send('успешно'.encode())
             logging(f'подключение {addr}')
             main(login, conn, addr)
         else:
             conn.send('неправильные данные'.encode())
     except:
-        conn.send('что-то пошло не так'.encode())
+        conn.send('Что-то пошло не так'.encode())
 
 def c(*args):
     current_path = args[0]
