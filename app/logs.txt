@@ -1,0 +1,191 @@
+[2021-12-16 22:05:37] - запуск сервера 
+[2021-12-16 22:05:45] - подключение ('192.168.1.2', 54021) 
+[2021-12-16 22:05:48] - сообщение от 192.168.1.2: shutdown 
+[2021-12-16 22:05:48] - остановка сервера 
+[2021-12-16 22:05:48] - отключение ('192.168.1.2', 54021) 
+[2021-12-16 22:10:28] - запуск сервера 
+[2021-12-16 22:10:36] - подключение ('192.168.1.2', 54076) 
+[2021-12-16 22:10:38] - сообщение от 192.168.1.2: shutdown 
+[2021-12-16 22:10:38] - остановка сервера 
+[2021-12-16 22:10:38] - отключение ('192.168.1.2', 54076) 
+[2021-12-16 22:11:41] - запуск сервера 
+[2021-12-16 22:11:46] - подключение ('192.168.1.2', 54086) 
+[2021-12-16 22:11:48] - сообщение от 192.168.1.2: shutdown 
+[2021-12-16 22:11:48] - остановка сервера 
+[2021-12-16 22:12:02] - запуск сервера 
+[2021-12-16 22:12:08] - подключение ('192.168.1.2', 54095) 
+[2021-12-16 22:12:09] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:12:09] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:12:10] - сообщение от 192.168.1.2: shutdown 
+[2021-12-16 22:12:10] - остановка сервера 
+[2021-12-16 22:12:34] - запуск сервера 
+[2021-12-16 22:12:38] - подключение ('192.168.1.2', 54097) 
+[2021-12-16 22:12:40] - сообщение от 192.168.1.2: shutdown 
+[2021-12-16 22:12:40] - остановка сервера 
+[2021-12-16 22:12:40] - отключение ('192.168.1.2', 54097) 
+[2021-12-16 22:24:51] - запуск сервера 
+[2021-12-16 22:24:57] - подключение ('192.168.1.2', 54195) 
+[2021-12-16 22:25:00] - сообщение от 192.168.1.2: sfl 1.txt 
+[2021-12-16 22:25:07] - запуск сервера 
+[2021-12-16 22:25:10] - запуск сервера 
+[2021-12-16 22:25:13] - запуск сервера 
+[2021-12-16 22:25:19] - подключение ('192.168.1.2', 54207) 
+[2021-12-16 22:25:21] - сообщение от 192.168.1.2: sfl 1.txt 
+[2021-12-16 22:27:34] - запуск сервера 
+[2021-12-16 22:27:39] - запуск сервера 
+[2021-12-16 22:27:44] - подключение ('192.168.1.2', 54217) 
+[2021-12-16 22:27:44] - сообщение от 192.168.1.2: dfls 
+[2021-12-16 22:27:46] - сообщение от 192.168.1.2: dfsldfslsdf 
+[2021-12-16 22:27:49] - сообщение от 192.168.1.2: afl 4393 4392439439 
+[2021-12-16 22:28:06] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:29:59] - запуск сервера 
+[2021-12-16 22:30:02] - подключение ('192.168.1.2', 62940) 
+[2021-12-16 22:30:03] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:30:03] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:30:06] - сообщение от 192.168.1.2: adr 12333 
+[2021-12-16 22:30:08] - сообщение от 192.168.1.2: c 
+[2021-12-16 22:30:12] - сообщение от 192.168.1.2: adr 133333333333333 
+[2021-12-16 22:30:13] - сообщение от 192.168.1.2: c 
+[2021-12-16 22:30:22] - сообщение от 192.168.1.2: sfl 1.txt 
+[2021-12-16 22:33:51] - запуск сервера 
+[2021-12-16 22:34:28] - подключение ('192.168.1.2', 62976) 
+[2021-12-16 22:34:30] - сообщение от 192.168.1.2: sfl send 
+[2021-12-16 22:34:30] - отключение ('192.168.1.2', 62976) 
+[2021-12-16 22:34:40] - запуск сервера 
+[2021-12-16 22:34:43] - запуск сервера 
+[2021-12-16 22:34:45] - запуск сервера 
+[2021-12-16 22:34:50] - подключение ('192.168.1.2', 62977) 
+[2021-12-16 22:34:52] - сообщение от 192.168.1.2: sfl send 
+[2021-12-16 22:34:52] - отключение ('192.168.1.2', 62977) 
+[2021-12-16 22:35:05] - запуск сервера 
+[2021-12-16 22:35:44] - запуск сервера 
+[2021-12-16 22:35:49] - подключение ('192.168.1.2', 62981) 
+[2021-12-16 22:35:50] - сообщение от 192.168.1.2: sfl send 
+[2021-12-16 22:35:50] - отключение ('192.168.1.2', 62981) 
+[2021-12-16 22:36:06] - запуск сервера 
+[2021-12-16 22:36:10] - подключение ('192.168.1.2', 62987) 
+[2021-12-16 22:36:11] - сообщение от 192.168.1.2: sfl send 
+[2021-12-16 22:36:36] - подключение ('192.168.1.2', 62991) 
+[2021-12-16 22:36:38] - сообщение от 192.168.1.2: sfl send.txt 
+[2021-12-16 22:37:19] - запуск сервера 
+[2021-12-16 22:37:22] - подключение ('192.168.1.2', 51813) 
+[2021-12-16 22:37:23] - сообщение от 192.168.1.2: sfl send 
+[2021-12-16 22:37:50] - запуск сервера 
+[2021-12-16 22:37:54] - подключение ('192.168.1.2', 51820) 
+[2021-12-16 22:37:56] - сообщение от 192.168.1.2: sfl send 
+[2021-12-16 22:38:12] - запуск сервера 
+[2021-12-16 22:38:15] - подключение ('192.168.1.2', 51824) 
+[2021-12-16 22:38:16] - сообщение от 192.168.1.2: sfl send 
+[2021-12-16 22:38:22] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:38:23] - сообщение от 192.168.1.2: c 
+[2021-12-16 22:41:37] - запуск сервера 
+[2021-12-16 22:41:43] - подключение ('192.168.1.2', 51126) 
+[2021-12-16 22:41:44] - сообщение от 192.168.1.2: sfl send 
+[2021-12-16 22:41:45] - сообщение от 192.168.1.2: dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslk 
+[2021-12-16 22:41:45] - сообщение от 192.168.1.2: sadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf 
+[2021-12-16 22:42:24] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:42:32] - запуск сервера 
+[2021-12-16 22:42:36] - подключение ('192.168.1.2', 51132) 
+[2021-12-16 22:42:39] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:42:40] - сообщение от 192.168.1.2: dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslk 
+[2021-12-16 22:42:40] - сообщение от 192.168.1.2: sadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf 
+[2021-12-16 22:42:46] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:42:58] - подключение ('192.168.1.2', 51134) 
+[2021-12-16 22:43:01] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:43:02] - сообщение от 192.168.1.2: dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslk 
+[2021-12-16 22:43:02] - сообщение от 192.168.1.2: sadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf 
+[2021-12-16 22:43:08] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:45:46] - запуск сервера 
+[2021-12-16 22:45:50] - подключение ('192.168.1.2', 51164) 
+[2021-12-16 22:45:52] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:45:53] - сообщение от 192.168.1.2: dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf 
+[2021-12-16 22:46:02] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:47:24] - запуск сервера 
+[2021-12-16 22:47:36] - отключение ('192.168.1.2', 56836) 
+[2021-12-16 22:47:39] - подключение ('192.168.1.2', 56838) 
+[2021-12-16 22:47:39] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:47:39] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:47:40] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:47:42] - сообщение от 192.168.1.2: sfl s s 
+[2021-12-16 22:47:44] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:47:45] - сообщение от 192.168.1.2: dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf 
+[2021-12-16 22:47:54] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:47:54] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:47:55] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:48:12] - запуск сервера 
+[2021-12-16 22:48:16] - подключение ('192.168.1.2', 56849) 
+[2021-12-16 22:48:19] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:48:20] - сообщение от 192.168.1.2: dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkd 
+[2021-12-16 22:48:20] - сообщение от 192.168.1.2: fslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf 
+[2021-12-16 22:48:27] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:27] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:27] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:27] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:28] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:28] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:28] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:28] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:28] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:28] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:28] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:28] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:28] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:28] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:28] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:28] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:28] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:28] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:28] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:28] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:28] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:29] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:48:30] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:48:50] - запуск сервера 
+[2021-12-16 22:48:53] - подключение ('192.168.1.2', 56856) 
+[2021-12-16 22:48:56] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:48:57] - сообщение от 192.168.1.2: dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkd 
+[2021-12-16 22:48:57] - сообщение от 192.168.1.2: fslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf dfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadfdfslkdfslksadf 
+[2021-12-16 22:49:26] - запуск сервера 
+[2021-12-16 22:49:31] - подключение ('192.168.1.2', 56866) 
+[2021-12-16 22:49:34] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:50:12] - запуск сервера 
+[2021-12-16 22:50:19] - подключение ('192.168.1.2', 56878) 
+[2021-12-16 22:50:22] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:50:31] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:50:31] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:50:38] - сообщение от 192.168.1.2: c 
+[2021-12-16 22:51:19] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:51:22] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:51:31] - запуск сервера 
+[2021-12-16 22:51:39] - подключение ('192.168.1.2', 56893) 
+[2021-12-16 22:51:40] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:51:50] - подключение ('192.168.1.2', 56896) 
+[2021-12-16 22:51:50] - сообщение от 192.168.1.2: s 
+[2021-12-16 22:51:51] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:51:51] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:51:51] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:51:51] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:51:51] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:51:52] - сообщение от 192.168.1.2: <empty> 
+[2021-12-16 22:53:09] - запуск сервера 
+[2021-12-16 22:53:15] - подключение ('192.168.1.2', 56917) 
+[2021-12-16 22:53:21] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:53:34] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:53:41] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:53:53] - запуск сервера 
+[2021-12-16 22:53:57] - подключение ('192.168.1.2', 56922) 
+[2021-12-16 22:53:59] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:54:37] - запуск сервера 
+[2021-12-16 22:54:44] - подключение ('192.168.1.2', 52283) 
+[2021-12-16 22:54:47] - сообщение от 192.168.1.2: cdr 123 
+[2021-12-16 22:54:50] - сообщение от 192.168.1.2: sfl sendme.txt 
+[2021-12-16 22:59:45] - запуск сервера 
+[2021-12-16 23:00:08] - подключение ('192.168.1.2', 52368) 
+[2021-12-16 23:00:18] - сообщение от 192.168.1.2: dlfl receiveme.txt 
+[2021-12-16 23:01:47] - запуск сервера 
+[2021-12-16 23:01:50] - подключение ('192.168.1.2', 52378) 
+[2021-12-16 23:01:55] - сообщение от 192.168.1.2: dlfl receiveme.txt 
+[2021-12-16 23:02:37] - запуск сервера 
+[2021-12-16 23:02:40] - подключение ('192.168.1.2', 52389) 
+[2021-12-16 23:02:45] - сообщение от 192.168.1.2: dlfl receiveme.txt 
+[2021-12-16 23:02:47] - сообщение от 192.168.1.2: <empty> 
