@@ -1,4 +1,6 @@
 #Админские права - имя admin пароль 123
+import os
+
 import filemanager_func as f
 import socket
 from bcrypt import checkpw, hashpw, gensalt
@@ -93,13 +95,7 @@ class ConnectionThread(threading.Thread):
         self.runnest()
  
     def loginnnim(self):
-        #if self.key_full_m==None:
-            #генерация ключа шифровния
             self.key_full_m = int(generation(self.conn, randint(128, 1024), randint(128, 1024)))
-            #key =randint(32, 128)
-            #send_mas(self.conn, str(key), str(self.key_full_m))
-            #self.key_full_m = Number_To_Fraze(self.key_full_m, key)
-            #получение логина
             send_mas(self.conn, 'Здравствуйте. Представьтесь, пожалуйста', self.key_full_m)
             name = recive(self.conn, self.key_full_m)
             try:#известен ли логин
@@ -231,7 +227,7 @@ class ConnectionThread(threading.Thread):
                         if log:
                             logging(str(self.whoisit)+': '+log)
 #список команд для админов и пользователей
-signal={'chdirr':'','copyCS': f.sendd, 'copySC': f.recvv, 'openn': f.open_file, 'pwdd': f.current, 'lss': f.isDir, 'mkdirr': f.mkdir, 'remdirr': f.kill_it, 'touchh': f.create, 'dell': f.exterminate, 'zipuy': f.zip_in, 'dezip': f.Unzip, 'movetoo': f.movetoo, 'renamee': f.renamee, 'copyfilee': f.copy_file, 'copytoo': f.copy_folder}
+signal={'chdirr':f.chdirr,'copyCS': f.sendd, 'copySC': f.recvv, 'openn': f.open_file, 'pwdd': f.current, 'lss': f.isDir, 'mkdirr': f.mkdir, 'remdirr': f.kill_it, 'touchh': f.create, 'dell': f.exterminate, 'zipuy': f.zip_in, 'dezip': f.Unzip, 'movetoo': f.movetoo, 'renamee': f.renamee, 'copyfilee': f.copy_file, 'copytoo': f.copy_folder}
 adminsignal={'exites': exites, 'showlog': showlog, 'clearlog': clearlog, 'pause': pause}
 try:
     file = open("adress_coda.txt", "r")

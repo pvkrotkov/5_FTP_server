@@ -42,6 +42,15 @@ def recvv(name, conn, key, dop):
     #conn.send(text.encode())
     return 'отправлен файл '+name,  'file '+name+' was sent'
 
+def chdirr(dir_name):
+    if dir_name != 'back':
+        os.chdir(dir_name)
+        print(f'Рабочая директория изменена на {dir_name}.')
+    else:
+        os.chdir('..')
+        print('Возврат к предыдущей директории')
+
+
 #'''
 
 #зазиповать файл
@@ -95,6 +104,7 @@ def isDir(dop):
     msg=''
     for i in (spicokk):
         msg+=str(i)+' '
+        print(msg)
     return(msg+'\n', False)
 #создание файла
 def create(file_name, userr, max_size, dop):
@@ -112,25 +122,24 @@ def create(file_name, userr, max_size, dop):
 def open_file(file_name, dop):
     msg=''
     try:
-        with open(dop+file_name, 'r', encoding='utf-8') as file:
-            msg+=(file)#*
+        os.startfile(dop + file_name)
     except FileNotFoundError:
             return('Не получилось найти файл', False)
-    return(msg, False)#'''
+            #'''
 #переименование
 def renamee(old_Fname, new_Fanme, dop):
     try:
         os.rename(dop+old_Fname, dop+new_Fanme)
     except PermissionError:
-        return('Нельзя просто так взять и переименовать '+old_Fname+' в '+new_Fanme, False)
+        return('Неудалось переименовать файл в ' +old_Fname, False)
     except:
-        return('Мы не смогли найти '+old_Fname+' и переименовать его в '+new_Fanme, False)
+        return('Мы не смогли найти '+old_Fname, False)
     else:
-        return(new_Fanme+': эта программа меняет людей, раньше я был - '+old_Fname, old_Fname+' rename to '+new_Fanme)
+        return(old_Fname, 'Был переименован в', new_Fanme)
 #удаление файла
 def exterminate(file_name, dop):
     os.remove(dop+file_name)
-    return('Джони, я файла '+file_name+' не чувствую', file_name+' was delete')
+    return('Файл с именем', file_name, 'был удален')
 #перемещение файла
 def movetoo(file_name, dir_name, dop):
     try:
@@ -140,7 +149,7 @@ def movetoo(file_name, dir_name, dop):
             os.replace(dop+file_name, dop[:dop.find('/')]+dir_name+'/'+file_name)
         except FileNotFoundError:
             return('Не получилось найти файл', False)
-    return('Файл '+file_name+' был перемещён в директорию '+dir_name, file_name+' remove to '+dir_name)
+    return('Файл '+file_name+' был перемещён в директорию '+dir_name)
 #копирование
 def copy_file(file_name, second_file, userr, max_size, dop):
     try:
@@ -166,7 +175,7 @@ def copy_folder(file_name, dir_name, userr, max_size, dop):
                 shutil.copy(dop+file_name, dop[:dop.find('/')]+dir_name)
             except FileNotFoundError:
                 return('Не получилось найти файл', False)
-        return('Файл '+file_name+' был скопирован в директорию '+dir_name, file_name+' copy to '+dir_name)
+        return('Файл '+file_name+' был скопирован в директорию '+dir_name)
     else:
         return('Не получилось найти директорию', False)
 def analiz(cell, home, put,dop):
