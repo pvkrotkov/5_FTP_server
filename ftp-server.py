@@ -75,7 +75,7 @@ def copying(name, way):
 
 # Функция вывода справочника
 def help_():
-    print(
+    return(
         'ls <dir>            - посмотреть содержимое папки\n'
         'mkdir <dir>         - создать папку\n'
         'touch <file> <text> - создать файл\n'
