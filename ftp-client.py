@@ -1,17 +1,15 @@
 import socket
 
-HOST = 'localhost'
-PORT = 6666
+HOST = "127.0.0.1"
+PORT = 8080
 
 while True:
-    request = input('>')
-    
+    req = input('> ')
+    if req == 'exit':
+        break
     sock = socket.socket()
     sock.connect((HOST, PORT))
-    
-    sock.send(request.encode())
-    
+    sock.send(req.encode())
     response = sock.recv(1024).decode()
     print(response)
-    
     sock.close()
