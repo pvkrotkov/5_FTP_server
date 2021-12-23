@@ -4,7 +4,7 @@ HOST = 'localhost'
 PORT = 9109
 
 def main():
-    print(f"Присоединились к {HOST} {PORT}")
+    print(f"Подключение к {HOST} {PORT}")
     print('help - список команд, exit - выход')
     while True:
         request = input('>')
