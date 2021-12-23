@@ -6,14 +6,13 @@ from pathlib import Path
 PORT = 9090
 HOME = Path(Path.cwd(), 'home')
 
-
 def ls(path=None):
     if path:
         return '; '.join(os.listdir(path))
     return '; '.join(os.listdir(HOME))
 
 
-def pwd():
+ def pwd():
     return str(HOME)
 
 
@@ -61,7 +60,6 @@ def help():
             'help - выводит справку по командам\n' \
             'exit - разрыв соединения с сервером'
 
-
 def process(request):
     command, *args = request.split()
     commands = {
@@ -78,7 +76,6 @@ def process(request):
         return commands[command](*args)
     except (TypeError, KeyError):
         return 'Bad request'
-
 
 def handle(conn):
     with conn:
