@@ -1,17 +1,23 @@
 import socket
 
 HOST = 'localhost'
-PORT = 6666
+PORT = 9109
 
-while True:
-    request = input('>')
-    
-    sock = socket.socket()
-    sock.connect((HOST, PORT))
-    
-    sock.send(request.encode())
-    
-    response = sock.recv(1024).decode()
-    print(response)
-    
-    sock.close()
+def main():
+    print(f"Подключение к {HOST} {PORT}")
+    print('help - список команд, exit - выход')
+    while True:
+        request = input('>')
+        if request == 'exit':
+            break
+        with socket.socket() as sock:
+            sock.connect((HOST, PORT))
+
+            sock.send(request.encode())
+            response = sock.recv(1024).decode()
+            if response:
+                print('response:',response)
+
+
+if __name__ == '__main__':
+    main() 
