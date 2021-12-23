@@ -1,11 +1,4 @@
 import socket
-import os
-'''
-pwd - показывает название рабочей директории
-ls - показывает содержимое текущей директории
-cat <filename> - отправляет содержимое файла
-'''
-import socket
 import shutil
 import os
 from pathlib import Path
