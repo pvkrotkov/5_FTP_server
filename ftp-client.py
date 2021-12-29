@@ -4,14 +4,22 @@ HOST = 'localhost'
 PORT = 6666
 
 while True:
-    request = input('>')
-    
+    try:
+        request = input('>')
+    except Exception:
+        break
     sock = socket.socket()
-    sock.connect((HOST, PORT))
-    
+    try:
+        sock.connect((HOST, PORT))
+    except Exception:
+        break
     sock.send(request.encode())
-    
-    response = sock.recv(1024).decode()
+    try:
+        response = sock.recv(1024).decode()
+    except Exception:
+        break
+    if response == 'exit' or response == 'break':
+        break
     print(response)
-    
+
     sock.close()
