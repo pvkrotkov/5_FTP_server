@@ -21,7 +21,7 @@ def process(req):
         except Exception:
             return "missing arguments!"
     elif req[0] == 'cat':
-        filename = os.path.join(os.getcwd(), 'docs') + req[1]
+        filename = os.path.join(os.getcwd(), 'docs', req[1])
         try:
             f = open(filename, "r")
             msg = f.read()
@@ -32,7 +32,8 @@ def process(req):
         try:
             src_path = os.path.join(dirname, req[1])
             new_path = os.path.join(dirname, req[2])
-            shutil.move(new_path, src_path)
+            shutil.move(src_path, new_path)
+            return "success"
         except Exception:
             return 'bad path request!'
     elif req[0] == 'rm':
